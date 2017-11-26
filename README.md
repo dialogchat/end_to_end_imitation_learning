@@ -1,7 +1,7 @@
 # End-to-End Imitation Learning with the Udacity Simulator
 ## Overview
 
-This code implements an autonomous car agent using Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim). The model is based on an end-to-end imitation learning algorithm as described in [NVIDIA's DaveNet2 paper](https://github.com/udacity/self-driving-car-sim).
+This code implements an autonomous car agent using Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim). The model is based on an end-to-end imitation learning algorithm as described in [NVIDIA's DaveNet2 paper](https://arxiv.org/abs/1604.07316).
 
 ## Dependencies
 
