@@ -37,15 +37,17 @@ pip install -r requirements.txt
 
 ### Run the pretrained model
 
-Start up [the Udacity self-driving simulator](https://github.com/udacity/self-driving-car-sim), choose a scene and press the Autonomous Mode button.  Then, run the model as follows:
+Download and start up [the Udacity self-driving simulator](https://github.com/udacity/self-driving-car-sim), choose a scene and press the Autonomous Mode button.  Then, run the model in terminal as follows:
 
 ```python
-python drive.py model.h5
+python drive.py model-006.h5
 ```
+The model should give you good performance on the lake track and bad performance on the jungle track. (Was trained for 20 min, 10 epochs on the lake track).
 
 ### To train the model
 
-You'll need the data folder which contains the training images.
+Once you created your IMG and driving_log.csv data in the /data directory you can start to train your model.
+Before that you can go into model.py and create your own model, tune hyperparameter etc... that's were your creativity comes into play...
 
 ```python
 python model.py
