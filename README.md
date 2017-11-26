@@ -5,7 +5,7 @@ This code implements an autonomous car agent using Udacity's [self driving car s
 
 ## Dependencies
 
-You will need a spedific version of Keras, Matplotlib .. to run this code. So the best way is to install everything into a virtual environment e.g. virtualenv.
+You will need a spedific version of Keras, Matplotlib etc.. to run this code. So the best way to install without touching your config is to put everything into a virtual environment e.g. virtualenv.
 
 Use Python 2.7 and install virtualenv
 ```
