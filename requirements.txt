@@ -1,0 +1,15 @@
+jupyter
+pillow
+scikit-learn
+scikit-image
+scipy
+h5py
+eventlet
+flask-socketio
+seaborn
+pandas
+imageio
+moviepy
+keras==1.2
+opencv-contrib-python
+matplotlib==2.0.2
