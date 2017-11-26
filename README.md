@@ -8,18 +8,23 @@ This is the code for [this](https://youtu.be/EaY5QiZwSP4) video on Youtube by Si
 You will need a spedific version of Keras, Matplotlib .. to run this code. So the best way is to install everything into a virtual environment e.g. virtualenv.
 
 Use Python 2.7 and install virtualenv
-```sudo apt-get install python-pip python-dev python-virtualenv``` 
+```sudo apt-get install python-pip python-dev python-virtualenv
+``` 
 Create a virtualenv environment in terminal
-```virtualenv --system-site-packages car_simulation```
+```virtualenv --system-site-packages car_simulation
+```
 Activate the virtualenv environment in terminal
-```source ~/car_simulation/bin/activate```
+```source ~/car_simulation/bin/activate
+```
 Use TensorFlow with GPU
-```pip install tensorflow-gpu==1.0```
+```pip install tensorflow-gpu==1.0
+```
 Use TensorFlow without GPU
-```pip install tensorflow==1.0```
-
+```pip install tensorflow==1.0
+```
 Now install all other dependencies in the requirements.txt file:
-```pip install -r requirements.txt```
+```pip install -r requirements.txt
+```
 
 ## Usage
 
