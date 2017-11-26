@@ -1,7 +1,7 @@
 # End-to-End Imitation Learning with the Udacity Simulator
 ## Overview
 
-This is the code for [this](https://youtu.be/EaY5QiZwSP4) video on Youtube by Siraj Raval. We're going to use Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim) as a testbed for training an autonomous car. 
+This code implements an autonomous car agent using Udacity's [self driving car simulator](https://github.com/udacity/self-driving-car-sim). The model is based on an end-to-end imitation learning algorithm as described in [NVIDIA's DaveNet2 paper](https://github.com/udacity/self-driving-car-sim).
 
 ## Dependencies
 
@@ -55,4 +55,4 @@ This will generate a file `model-<epoch>.h5` whenever the performance in the epo
 
 ## Credits
 
-The credits for this code go to [naokishibuya](https://github.com/naokishibuya). I've merely created a wrapper to get people started.
+The credits for this code go to [Udacity](https://github.com/udacity) and [naokishibuya](https://github.com/naokishibuya). I have contributed to this code by implementing some new model architectures.
