@@ -1,2 +1,2 @@
-# end_to_end_imitation_learning
-End_to_end_imitation_learning
+# End to End Imitation Learning with the Udacity Simulator
+
