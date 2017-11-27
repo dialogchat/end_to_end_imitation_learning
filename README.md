@@ -21,15 +21,15 @@ source ~/car_simulation/bin/activate
 ```
 Use TensorFlow with GPU
 ```
-sudo pip install tensorflow-gpu==1.0
+pip install tensorflow-gpu==1.0
 ```
 Use TensorFlow without GPU
 ```
-sudo pip install tensorflow==1.0
+pip install tensorflow==1.0
 ```
 Now install all other dependencies in the requirements.txt file:
 ```
-sudo pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
