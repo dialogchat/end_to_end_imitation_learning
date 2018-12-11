@@ -27,7 +27,7 @@ Use TensorFlow without GPU
 ```
 pip install tensorflow==1.0
 ```
-Now install all other dependencies in the requirements.txt file:
+Clone the Repo, cd into the folder and install all other dependencies in the requirements.txt file:
 ```
 pip install -r requirements.txt
 ```
