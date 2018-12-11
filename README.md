@@ -19,7 +19,7 @@ Activate the virtualenv environment in terminal (use ```deactivate``` to exit)
 ```
 source ~/car_simulation/bin/activate
 ```
-Use TensorFlow with GPU
+Use TensorFlow with GPU (requires Cuda8, check with nvcc --version)
 ```
 pip install tensorflow-gpu==1.0
 ```
