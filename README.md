@@ -15,7 +15,7 @@ Create a virtualenv environment in terminal
 ```
 virtualenv --system-site-packages car_simulation
 ```
-Activate the virtualenv environment in terminal
+Activate the virtualenv environment in terminal (use ```deactivate``` to exit)
 ```
 source ~/car_simulation/bin/activate
 ```
