@@ -19,13 +19,23 @@ Activate the virtualenv environment in terminal (use ```deactivate``` to exit)
 ```
 source ~/car_simulation/bin/activate
 ```
-Use TensorFlow with GPU (requires Cuda8, check with nvcc --version)
-```
-pip install tensorflow-gpu==1.0
-```
 Use TensorFlow without GPU
 ```
 pip install tensorflow==1.0
+```
+Use TensorFlow with GPU (check your Cuda version first ```nvcc --version```)
+
+For Cuda 8.0:
+```
+pip install tensorflow-gpu==1.0
+```
+For Cuda 9.x: download a [python 2.7 tf1.4 or higher wheel ](https://github.com/mind/wheels) and install with
+```
+pip install tensorflow-1.4.0-cp27-cp27mu-linux_x86_64.whl
+```
+In case of numa=-1 error, run
+```
+sudo apt install numactl
 ```
 Clone the Repo, cd into the folder and install all other dependencies in the requirements.txt file:
 ```
